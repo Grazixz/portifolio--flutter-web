@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Portifólio - Graziela',
-     debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       home: const InitialScreen(),
     );
   }
