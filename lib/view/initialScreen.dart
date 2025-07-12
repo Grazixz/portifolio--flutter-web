@@ -119,19 +119,19 @@ class _InitialScreenState extends State<InitialScreen> {
             SizedBox(height: 14),
             _buildCertCard(
               "Conversor de Moedas - JAVA",
-              "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma aplicação conversor de moedas utilizando Java 21, consumindo dados de uma API.",
+              "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma aplicação de conversor de moedas utilizando Java 21, consumindo dados de uma API.",
               "https://github.com/Grazixz/conversor--de--moedas--challenge2--one",
             ),
 
             _buildCertCard(
               "Weather Forecast - JAVA",
-              "Uma aplicação que consome uma API de prevosão do tempo e exibe informações climáticas com base no local informado pelo usuário.",
+              "Uma aplicação que consome uma API de previsão do tempo que exibe informações climáticas com base no local informado pelo usuário.",
               "https://github.com/Grazixz/weather--forecast",
             ),
 
             _buildCertCard(
               "LiterAlura - JAVA",
-              "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma aplicação com um catálogo de livros interativo, consumindo dados de uma API e armazenando essas informações em um banco de dados relacional.",
+              "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma aplicação com um catálogo de livros, consumindo dados de uma API e armazenando essas informações em um banco de dados relacional.",
               "https://github.com/Grazixz/literalura--challenge3--one",
             ),
           ],
@@ -313,7 +313,7 @@ class _InitialScreenState extends State<InitialScreen> {
                                       children: [
                                         IconButton(
                                           onPressed: () => _enterLink(
-                                            "mailto:grazielalucena8@gmail.com?subject=Dúvidas&body=Olá, gostaria de saber mais sobre...",
+                                            "mailto:grazielalucena8@gmail.com?body=Olá...",
                                           ),
                                           tooltip: "E-mail",
                                           icon: _IconsWidget(
