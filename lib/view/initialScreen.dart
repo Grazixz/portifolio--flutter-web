@@ -193,8 +193,7 @@ class _InitialScreenState extends State<InitialScreen> {
 
       body: Stack(
         children: [
-          AnimatedContainer(
-            duration: Duration(milliseconds: 100),
+          Container(
             width: double.maxFinite,
             height: double.maxFinite,
             color: _color1,
