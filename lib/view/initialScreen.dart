@@ -134,6 +134,12 @@ class _InitialScreenState extends State<InitialScreen> {
               "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma aplicação com um catálogo de livros, consumindo dados de uma API e armazenando essas informações em um banco de dados relacional.",
               "https://github.com/Grazixz/literalura--challenge3--one",
             ),
+
+            _buildCertCard(
+              "ForumHub - JAVA",
+              "Um desafio do programa Oracle Next Education (ONE) em parceria com a Alura. O objetivo foi desenvolver uma API Rest de um Forum e armazenar em um banco de dados com entidades Usuário, Curso, Tópico e Resposta.",
+              "https://github.com/Grazixz/forum-hub--challenge4--one",
+            )
           ],
         ),
       ),
